@@ -1,6 +1,6 @@
 # Read Sensor
 
-Read Sensor is a simple Android application that demonstrates how to read data from the device's accelerometer sensor. The app displays the X, Y, and Z axis values of the accelerometer in real-time.
+Read Sensor is a simple Android application built with Java that demonstrates how to read data from the device's accelerometer sensor. The app displays the X, Y, and Z axis values of the accelerometer in real-time.
 
 ## Features
 
