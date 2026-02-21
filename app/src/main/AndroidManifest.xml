@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This is the Android Manifest file. It provides essential information about your app to the Android system.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      This tag declares that the app uses the accelerometer sensor and that the app should not be installed on devices that do not have an accelerometer.
+    -->
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+
+    <!--
+      This is the main application tag. It contains all the components of the app.
+    -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReadSensor">
+
+        <!--
+          This is the main activity of the app. It is the entry point for the app.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <!--
+              This intent filter declares that this activity is the main entry point of the app and that it should be listed in the app launcher.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

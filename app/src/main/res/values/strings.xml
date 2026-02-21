@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Read Sensor</string>
+    <string name="sensor_data_placeholder">No sensor data</string>
+    <string name="accelerometer_data_title">Accelerometer Data</string>
+</resources>
